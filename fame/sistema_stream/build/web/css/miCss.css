@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-sep-2017, 23:22:06
+    Author     : Ricardo Cutimbo
+*/
+
+.miBoton{
+    text-align:center;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.miInput{ 
+    
+    height: 30px;
+    text-align:center;
+    width: 180px;
+    border-radius: 40px;
+    background: linear-gradient(to right, white, yellow);
+}
+.miBoton:active{
+    background-color: brown;
+}
+.miPanel{
+    width: 300px;
+    height: 280px;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 40%;
+    border: 4px solid purple;
+    background: white;
+}
+.miFondo{
+    display: none;
+    position: fixed;    
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+.menu-superior{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255,128,0,0.9);
+}
+.der{
+    float: right;
+}
+.izq{
+    float: left;
+    color:  lawngreen;
+}
+.cerrar{
+    background-color: greenyellow;
+    border-radius: 10px;
+    float: right;
+    color: indigo;
+    width: 35px;
+    font-size: 32px;
+}
+.cerrar:hover,focus{
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+a{
+    color: crimson;
+    text-decoration: none;
+}
+a:hover{
+    color: navy;
+}
+.miContainer{
+    text-align: center;
+    position: relative;
+}
+.miTexto{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    bottom: 60%;
+    left:30%;
+}
+
